@@ -1,0 +1,6 @@
+# Netlify config — Ishika Khapekar Portfolio
+# Netlify will auto-detect Vite/TanStack Start. Forms are picked up from
+# public/__forms.html at build time.
+[build]
+  command = "bun run build"
+  publish = ".output/public"
