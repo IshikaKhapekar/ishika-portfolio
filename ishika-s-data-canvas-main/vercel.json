@@ -1,5 +1,5 @@
 {
-  "buildCommand": "bun run build",
-  "outputDirectory": ".output/public",
-  "installCommand": "bun install"
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "installCommand": "npm install"
 }
